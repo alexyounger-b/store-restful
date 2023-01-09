@@ -1,0 +1,14 @@
+[run]
+disable_warnings =
+    module-not-imported
+
+omit =
+    venv/*
+    */migrations/*
+    */apps.py
+    */wsgi.py
+    manage.py
+
+
+[report]
+precision = 2
